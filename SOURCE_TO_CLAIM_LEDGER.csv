@@ -1,0 +1,13 @@
+claim_id,claim,disposition,evidence_or_reason
+CLM-001,Digital engineering scope complete for admitted source,ALLOWED,Frozen R3 digital terminal closeout + Fresh IQA evidence in source package
+CLM-002,A17 is an original lunar-exploration-inspired educational model rocket,ALLOWED,Original CAD/graphics + rights register
+CLM-003,Nominal stability 2.13 calibers,ALLOWED_MODELED_ONLY,03_SIMULATION/A17_SIMULATION_RESULT_R1.json
+CLM-004,Modeled apogee about 183 m under baseline assumptions,ALLOWED_MODELED_ONLY,03_SIMULATION/A17_SIMULATION_RESULT_R1.json
+CLM-005,Estimated descent about 3.8 m/s,ALLOWED_MODELED_ONLY,03_SIMULATION/A17_SIMULATION_RESULT_R1.json
+CLM-006,Fabrication completed,PROHIBITED,No admitted evidence
+CLM-007,Physical validation completed,PROHIBITED,No admitted evidence
+CLM-008,Flight validation completed / flight-proven,PROHIBITED,No admitted evidence
+CLM-009,Guaranteed performance,PROHIBITED,No admitted evidence
+CLM-010,NASA affiliation/endorsement/approval/sponsorship/official status,PROHIBITED,Rights and claim boundary
+CLM-011,Official NASA/Artemis/SLS replica,PROHIBITED,Rights and claim boundary
+CLM-012,Modeled results presented as measured results,PROHIBITED,Simulation boundary
