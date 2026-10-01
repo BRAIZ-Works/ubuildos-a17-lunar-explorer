@@ -1,13 +1,19 @@
-# Project Overview
+# Project overview | A17 Lunar Explorer
 
-## What is complete
-The admitted digital engineering baseline is complete and previously independently qualified. The public engineering package contains documentation, CAD/print files, drawings/renders, a BOM, OpenRocket/modeling artifacts, original graphics, and public provenance/claims records.
+**BRAIZ Works™ · A17 Lunar Explorer**
 
-## What is not complete
-No fabrication, ground test, physical validation, flight test, recovery observation, or post-flight validation is claimed. Those activities require separately admitted evidence and are outside this release.
+Version: 1.3.0 · Currentness: 2026-09-30
 
-## Public purpose
-This release demonstrates how UBuildOS can preserve a completed engineering subject, project only public-safe material, bind claims to evidence, and keep digital completion separate from real-world validation.
+## Purpose and audience
 
-## Engineering download
-`DOWNLOADS/A17_LUNAR_EXPLORER_PUBLIC_ENGINEERING_RELEASE_CANDIDATE_v1.0.0.zip`
+A17 Lunar Explorer is an independent educational model-rocket digital engineering project. This public release is for readers who want to inspect the documented design, files, modeled results, and evidence limits.
+
+## What the package contains
+
+The engineering download has eleven paired DOCX/PDF reference documents, CAD and printable geometry, drawings and renders, a bill of materials, OpenRocket/modeling artifacts, original graphics, and public provenance records. [Start here](START_HERE.md) provides a reading route.
+
+## Status and limitations
+
+The digital engineering file set is complete for this released scope. Fabrication, physical validation, and flight validation have not been performed. Modeled outputs are not measured flight results or performance guarantees. [Scope and limitations](PUBLIC_SCOPE_AND_LIMITATIONS.md) gives the full public boundary.
+
+The project is not affiliated with, sponsored by, approved by, or endorsed by NASA and is not an official NASA, Artemis, or SLS replica.

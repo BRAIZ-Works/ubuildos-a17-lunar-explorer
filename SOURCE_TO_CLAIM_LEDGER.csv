@@ -1,13 +1,5 @@
-claim_id,claim,disposition,evidence_or_reason
-CLM-001,Digital engineering scope complete for admitted source,ALLOWED,Frozen R3 digital terminal closeout + Fresh IQA evidence in source package
-CLM-002,A17 is an original lunar-exploration-inspired educational model rocket,ALLOWED,Original CAD/graphics + rights register
-CLM-003,Nominal stability 2.13 calibers,ALLOWED_MODELED_ONLY,03_SIMULATION/A17_SIMULATION_RESULT_R1.json
-CLM-004,Modeled apogee about 183 m under baseline assumptions,ALLOWED_MODELED_ONLY,03_SIMULATION/A17_SIMULATION_RESULT_R1.json
-CLM-005,Estimated descent about 3.8 m/s,ALLOWED_MODELED_ONLY,03_SIMULATION/A17_SIMULATION_RESULT_R1.json
-CLM-006,Fabrication completed,PROHIBITED,No admitted evidence
-CLM-007,Physical validation completed,PROHIBITED,No admitted evidence
-CLM-008,Flight validation completed / flight-proven,PROHIBITED,No admitted evidence
-CLM-009,Guaranteed performance,PROHIBITED,No admitted evidence
-CLM-010,NASA affiliation/endorsement/approval/sponsorship/official status,PROHIBITED,Rights and claim boundary
-CLM-011,Official NASA/Artemis/SLS replica,PROHIBITED,Rights and claim boundary
-CLM-012,Modeled results presented as measured results,PROHIBITED,Simulation boundary
+claim_id,claim,class,source,currentness,disposition,limitation
+CLM-001,Digital engineering package is complete for the released scope,DOCUMENTED,engineering package MANIFEST.json + README_START_HERE.md,2026-09-30,SUPPORTED,Does not establish fabrication or physical/flight validation
+CLM-002,Fabrication physical validation and flight validation have not been performed,DOCUMENTED,PUBLIC_SCOPE_AND_LIMITATIONS.md,2026-09-30,SUPPORTED,Future physical evidence requires a separately qualified update
+CLM-003,Modeled simulation values are not measured flight results,MODELED,03_SIMULATION/A17_SIMULATION_RESULT_R1.json + 06_PUBLIC_PROVENANCE/PUBLIC_CLAIMS_REGISTER_R1.csv,2026-09-30,SUPPORTED,No guaranteed real-world performance
+CLM-004,A17 Lunar Explorer is independent and not affiliated with or endorsed by NASA,DOCUMENTED,RIGHTS_AND_PROVENANCE.md,2026-09-30,SUPPORTED,No official NASA/Artemis/SLS replica claim
